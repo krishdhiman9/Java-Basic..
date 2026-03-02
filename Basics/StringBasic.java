@@ -1,8 +1,7 @@
+package Basics;
 
-
-public class stringbasic {
-    public static void main(String[]arg){
-        
+public class StringBasic {
+    public static void main(String[] args) {
         //syntax
         String name = "krish";
 
@@ -24,3 +23,4 @@ public class stringbasic {
     }
     
 }
+
