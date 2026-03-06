@@ -7,7 +7,7 @@ class employee{
     int salary;
 
     //creating a function
-    public void show(){
+    public void getDetails(){
         System.out.println("my id is " + id);
         System.out.println("my name is.. " + name);
         System.out.println("age is.. "+ age);
@@ -41,8 +41,8 @@ public class oopsBasics {
         //System.out.println(Harry.name);
 
         //using function to print the values.
-        Rahul.show();
-        Harry.show();
+        Rahul.getDetails();
+        Harry.getDetails();    
     }
     
 }
