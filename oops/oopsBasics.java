@@ -8,8 +8,8 @@ class employee{
 
     //creating a function
     public void show(){
-        System.out.println("ID is " + id);
-        System.out.println("name is.. " + name);
+        System.out.println("my id is " + id);
+        System.out.println("my name is.. " + name);
         System.out.println("age is.. "+ age);
         System.out.println("salary is " + salary);
     }
@@ -25,13 +25,17 @@ public class oopsBasics {
         //assigning values to object
         Rahul.id = 11;
         Rahul.age = 17;
+        Rahul.name = "Rahul Sronia";
 
         Harry.id = 12;
         Harry.age = 18;
+        Harry.name = "Harry Sandhu";
 
 
         //System.out.println(Rahul.id);
         //System.out.println(Harry.id);
+        System.out.println(Rahul.name);
+        System.out.println(Harry.name);
 
         //using function to print the values.
         Rahul.show();
