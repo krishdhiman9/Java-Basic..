@@ -27,9 +27,16 @@ public class oopsBasics {
         Rahul.age = 17;
 
         Harry.id = 12;
+        Harry.age = 18;
 
-        System.out.println(Rahul.id);
-        System.out.println(Harry.id);
+
+        //System.out.println(Rahul.id);
+        //System.out.println(Harry.id);
+
+        //using function to print the values.
+        Rahul.show();
+        Harry.show();
+
 
 
 
