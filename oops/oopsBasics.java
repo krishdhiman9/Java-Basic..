@@ -26,29 +26,23 @@ public class oopsBasics {
         Rahul.id = 11;
         Rahul.age = 17;
         Rahul.name = "Rahul Sronia";
+        Rahul.salary=20000;
+
 
         Harry.id = 12;
         Harry.age = 18;
         Harry.name = "Harry Sandhu";
+        Harry.salary = 21000;
 
 
         //System.out.println(Rahul.id);
         //System.out.println(Harry.id);
-        System.out.println(Rahul.name);
-        System.out.println(Harry.name);
+        //System.out.println(Rahul.name);
+        //System.out.println(Harry.name);
 
         //using function to print the values.
         Rahul.show();
         Harry.show();
-
-
-
-
-
-
-
-
-
     }
     
 }
