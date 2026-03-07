@@ -6,7 +6,7 @@ class employee{
     int age;
     int salary;
 
-    //creating a function
+    //creating a method/function.
     public void getDetails(){
         System.out.println("my id is " + id);
         System.out.println("my name is.. " + name);
@@ -16,9 +16,8 @@ class employee{
 }
 public class oopsBasics {
     public static void main(String[] args) {
-        System.out.println("Hello");
 
-        //creating class and object
+        //creating  object
         employee Rahul = new employee();
         employee Harry = new employee();
 
