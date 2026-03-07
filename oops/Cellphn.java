@@ -1,5 +1,5 @@
 package oops;
-class Phone{
+class CellPhone{
     //problem is => create a class cellphone with mwthods to print "ringing",,"vibrating"...
     
     
@@ -12,10 +12,10 @@ class Phone{
     
 }
 
-public class Cellphone{
+public class Cellphn{
     public static void main(String[] args) {
     
-        Phone hello = new Phone();
+        CellPhone hello = new CellPhone();
         hello.ringing();
         hello.vibrating();
     }
