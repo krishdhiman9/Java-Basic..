@@ -23,15 +23,15 @@ public class oopsBasics {
         employee Harry = new employee();
 
         //assigning values to object
+        Rahul.name = "Rahul Sronia";
         Rahul.id = 11;
         Rahul.age = 17;
-        Rahul.name = "Rahul Sronia";
         Rahul.salary=20000;
 
 
+        Harry.name = "Harry Sandhu";
         Harry.id = 12;
         Harry.age = 18;
-        Harry.name = "Harry Sandhu";
         Harry.salary = 21000;
 
 
