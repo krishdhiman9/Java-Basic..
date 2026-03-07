@@ -3,10 +3,10 @@ class CellPhone{
     //problem is => create a class cellphone with mwthods to print "ringing",,"vibrating"...
     
     
-    void ringing(){
+    public void ringing(){
         System.out.println("your phone is ringing");
     }
-    void vibrating(){
+    public void vibrating(){
         System.out.println("your phone is vibrating");
     }
     

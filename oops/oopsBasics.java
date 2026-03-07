@@ -43,5 +43,4 @@ public class oopsBasics {
         Rahul.getDetails();
         Harry.getDetails();    
     }
-    
 }
