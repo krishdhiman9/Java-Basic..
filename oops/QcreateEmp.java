@@ -19,7 +19,7 @@ class Employee{
     }
 }
 
-public class createEmp {
+public class QcreateEmp {
     public static void main(String[] args) {
         //creating object.
         Employee krish = new Employee();

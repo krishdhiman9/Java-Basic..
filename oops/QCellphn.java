@@ -12,7 +12,7 @@ class CellPhone{
     
 }
 
-public class Cellphn{
+public class QCellphn{
     public static void main(String[] args) {
     
         CellPhone hello = new CellPhone();
