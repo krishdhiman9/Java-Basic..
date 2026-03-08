@@ -14,8 +14,6 @@ class Square{
 public class QcreateSquare {
     
     public static void main(String[] args) {
-        
-
         Square box = new Square();
         box.side=2;
         box.area();
