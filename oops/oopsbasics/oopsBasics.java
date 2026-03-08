@@ -1,4 +1,6 @@
-package oops;
+package oops.oopsbasics;
+
+
 // a class (only one class create in program)
 class employee{
     int id;
