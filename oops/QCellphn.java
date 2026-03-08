@@ -7,7 +7,7 @@ class CellPhone{
         System.out.println("your phone is ringing");
     }
     public void vibrating(){
-        System.out.println("your phone is vibrating");
+        System.out.println("your phone is vibrating...zzzzz");
     }
     
 }

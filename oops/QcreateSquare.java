@@ -1,4 +1,15 @@
 package oops;
+class square{
+    int side;
+
+    
+
+
+
+}
+
+
+
 
 public class QcreateSquare {
     
