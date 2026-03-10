@@ -1,4 +1,5 @@
-//package oops;
+package practiceQ;
+
 class CellPhone{
     //problem is => create a class cellphone with mwthods to print "ringing",,"vibrating"...
     
@@ -12,7 +13,7 @@ class CellPhone{
     
 }
 
-public class QCellphn{
+public class QcellPhone{
     public static void main(String[] args) {
     
         CellPhone hello = new CellPhone();

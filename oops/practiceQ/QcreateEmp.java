@@ -1,5 +1,6 @@
-//package oops;
-//create class
+package practiceQ;
+
+
 class Employee{
     int salary;
     String name;

@@ -1,4 +1,4 @@
-//package oops;
+package practiceQ;
 class Square{
     int side;
     //question is create a class square with a method to initize its side, calculate area ,perimeter.

@@ -1,4 +1,8 @@
-//package oops;
+package practiceQ;
+
+
+
+
 class Qcircle {
     int r = 3;
     public void area(){
@@ -14,7 +18,7 @@ class Qcircle {
 
 
 
-public class Qcreatecircle{
+public class QcreateCircle{
 
     public static void main(String[] args) {
         Qcircle Circle = new Qcircle();
@@ -24,4 +28,3 @@ public class Qcreatecircle{
         
     }
 }
-
