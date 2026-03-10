@@ -1,4 +1,4 @@
-package oopsConcept;
+//package oops;
 //create class
 class Employee{
     int salary;

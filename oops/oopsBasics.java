@@ -1,6 +1,6 @@
-package oops.oopsbasics;
 
-//package oopsbasics;
+
+
 
 
 // a class (only one class create in program)
