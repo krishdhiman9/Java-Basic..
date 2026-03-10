@@ -1,9 +1,5 @@
+package oopsbasics;
 
-
-
-
-
-// a class (only one class create in program)
 class employee{
     int id;
     String name;
@@ -18,7 +14,7 @@ class employee{
         System.out.println("salary is " + salary);
     }
 }
-public class oopsBasics {
+public class basics {
     public static void main(String[] args) {
 
         //creating  object
@@ -48,3 +44,4 @@ public class oopsBasics {
         Harry.getDetails();    
     }
 }
+
