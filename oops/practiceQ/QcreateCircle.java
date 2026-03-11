@@ -1,8 +1,5 @@
 package practiceQ;
 
-
-
-
 class Qcircle {
     int r = 3;
     public void area(){

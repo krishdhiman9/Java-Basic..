@@ -2,7 +2,7 @@ package practiceSet;
 
 import java.util.Scanner;
 
-public class praticeSet4 {
+public class practiceSet4 {
     public static void main(String[] args) {
         //1)..Day of week.
         Scanner sc = new Scanner(System.in);
