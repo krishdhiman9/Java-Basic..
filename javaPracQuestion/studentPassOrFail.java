@@ -1,5 +1,6 @@
-package javaQuestions;
+package javaPracQuestion;
 import java.util.Scanner;
+
 public class studentPassOrFail {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -9,13 +10,9 @@ public class studentPassOrFail {
 
         if (marks >= 40){
             System.out.println("pass" );
-
         }
-
         else {
             System.out.println("fail");
         }
-
-
     }
 }

@@ -1,4 +1,4 @@
-package javaQuestions;
+package javaPracQuestion;
 import java.util.Scanner;
 public class checkPositiveNegitiveZero {
     public static void main(String[] args) {
