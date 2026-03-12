@@ -3,15 +3,15 @@ package javaPracQuestion;
 class TommyVercetti {
 
     void hitting() {
-        System.out.println("Tommy is hitting");
+        System.out.println("Tommy is hitting: ");
     }
 
     void running() {
-        System.out.println("Tommy is running");
+        System.out.println("Tommy is running: ");
     }
 
     void firing() {
-        System.out.println("Tommy is firing");
+        System.out.println("Tommy is firing: ");
     }
 
     public static void main(String[] args) {
