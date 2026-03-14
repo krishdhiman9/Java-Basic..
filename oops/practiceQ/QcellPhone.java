@@ -10,7 +10,6 @@ class CellPhone{
     public void vibrating(){
         System.out.println("your phone is vibrating...zzzzz");
     }
-    
 }
 
 public class QcellPhone{

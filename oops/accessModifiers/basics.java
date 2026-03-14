@@ -22,11 +22,11 @@ public class basics {
         Myemployee krish = new Myemployee();
         //krish.id=34;
         //krish.name=("krish dhiman ");
-        krish.setName("krish dhiman");
-        System.out.println(krish.getName());
+        krish.setName("Krish Dhiman");
+        System.out.println("name " + krish.getName());
 
         krish.setId(132);
-        System.out.println(krish.getId());
+        System.out.println("id " + krish.getId());
 
 
     }
