@@ -1,5 +1,5 @@
 package accessModifiers;
-class setCylinder{
+    class Cylinder{
     private int radius;
     private int height;
 
@@ -16,14 +16,23 @@ class setCylinder{
     public void setHeight(int h){
         height = h;
     }
-}
 
-public class cylinder {
+    public void surface(){
+        System.out.println(2*3.14*radius*height);
+    }
+    public void volume(){
+        System.out.println( 3.14*radius*radius*height);
+    }
+}
+public class surface_volume_cy {
     public static void main(String[] args) {
-        setCylinder cy = new setCylinder();
+        Cylinder cy = new Cylinder();
         cy.setRadius(12);
-        cy.setHeight(22);
+        cy.setHeight(22);       
         System.out.println(cy.getRadius());
         System.out.println(cy.getHeight());
+        cy.surface();
+        cy.volume();
+       
     }
 }
