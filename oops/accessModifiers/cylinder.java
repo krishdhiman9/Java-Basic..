@@ -17,7 +17,6 @@ class setCylinder{
         height = h;
     }
 }
-
 public class cylinder {
     public static void main(String[] args) {
         setCylinder cy = new setCylinder();
