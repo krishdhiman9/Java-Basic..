@@ -11,7 +11,6 @@ class CellPhone{
         System.out.println("your phone is vibrating...zzzzz");
     }
 }
-
 public class QcellPhone{
     public static void main(String[] args) {
     
@@ -19,4 +18,6 @@ public class QcellPhone{
         hello.ringing();
         hello.vibrating();
     }
+
+    
 }
