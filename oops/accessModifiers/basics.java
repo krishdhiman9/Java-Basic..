@@ -17,11 +17,12 @@ class Myemployee{
         id = i;
     }
 }
+
+
 public class basics {
     public static void main(String[] args) {
         Myemployee krish = new Myemployee();
-        //krish.id=34;
-        //krish.name=("krish dhiman ");
+        
         krish.setName("Krish Dhiman");
         System.out.println("name " + krish.getName());
 
