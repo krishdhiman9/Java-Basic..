@@ -11,6 +11,7 @@ public class claculator {
         int a = sc.nextInt();
         System.out.print("enter operator: ");
         char c = sc.next().charAt(0);
+        //int c = sc.nextInt();
         System.out.print("enter 2nd number: ");
         int b = sc.nextInt();
         int result=0;
@@ -18,10 +19,10 @@ public class claculator {
 
         switch (c){
             case '+':
-                result=a+b;
+                System.out.println(a+b);
                 break;
             case '-':
-                result=a-b;
+                System.out.println(a-b);
                 break;
             case '*':
                 result=a*b;
