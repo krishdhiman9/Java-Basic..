@@ -8,7 +8,7 @@ class MymainEmployee{
         id = 12;
         name = "krish dhiman ";
     }
-    //constructor 
+    //constructor .
     public MymainEmployee(String myName , int Id){
         id = Id;
         name = myName;
