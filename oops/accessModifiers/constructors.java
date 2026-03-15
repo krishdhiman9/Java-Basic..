@@ -3,11 +3,12 @@ class MymainEmployee{
     private int id;
     private String name;
 
-    //public MymainEmployee(){
-    //    id = 12;
-      //  name = "krish dhiman ";
-    //}
-
+    //method overloading
+    public MymainEmployee(){
+        id = 12;
+        name = "krish dhiman ";
+    }
+    //constructor 
     public MymainEmployee(String myName , int Id){
         id = Id;
         name = myName;
@@ -30,8 +31,11 @@ class MymainEmployee{
 
 public class constructors {
     public static void main(String[] args) {
-        MymainEmployee em = new MymainEmployee( "krish dhiman", 3344 );
-
+        //below line is use with constructor. 
+        //MymainEmployee em = new MymainEmployee( "krish dhiman", 3344 );
+        
+        //this line for method overloading.
+        MymainEmployee em = new MymainEmployee();
         System.out.println(em.getId());
         System.out.println(em.getName());
     }
