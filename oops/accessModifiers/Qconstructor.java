@@ -12,7 +12,7 @@ class setCylinder{
        //  Radius = radius;
        // Height = height;
     //}
-    
+    //methods.
     public int getRadius(){
         return radius;
     }
