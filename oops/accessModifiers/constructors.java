@@ -35,8 +35,8 @@ public class constructors {
         //MymainEmployee em = new MymainEmployee( "krish dhiman", 3344 );
         
         //this line for method overloading.
-        MymainEmployee em = new MymainEmployee();
-        System.out.println(em.getId());
-        System.out.println(em.getName());
+        MymainEmployee e = new MymainEmployee();
+        System.out.println(e.getId());
+        System.out.println(e.getName());
     }
 }
