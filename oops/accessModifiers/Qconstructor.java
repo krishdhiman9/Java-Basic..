@@ -8,10 +8,10 @@ class setCylinder{
         radius=22;
         height =33;
 }
-    //public setCylinder(int Radius,int Height){
-       //  Radius = radius;
-       // Height = height;
-    //}
+    public setCylinder(int Radius,int Height){
+        Radius = radius;
+        Height = height;
+    }
     //methods.
     public int getRadius(){
         return radius;
