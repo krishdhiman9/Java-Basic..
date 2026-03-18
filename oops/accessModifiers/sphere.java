@@ -18,7 +18,7 @@ class setSphere{
 public class sphere {
     public static void main(String[] args) {
         setSphere sph = new setSphere();
-        sph.setRadius(3);
+        sph.setRadius(22);
         System.out.println(sph.getRadius());
         System.out.println(sph.surface());
 
