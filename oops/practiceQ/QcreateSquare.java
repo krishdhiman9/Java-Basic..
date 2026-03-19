@@ -7,7 +7,7 @@ class Square{
     }
 
     public void perimeter(){
-        System.out.println("perimeter of sqaure: " + (4*side));
+        System.out.println("perimeter of sqaure:" + (4*side));
     }
 
 }
@@ -15,7 +15,7 @@ public class QcreateSquare {
     
     public static void main(String[] args) {
         Square box = new Square();
-        box.side=2;
+        box.side=5;
         box.area();
         box.perimeter();
     }
