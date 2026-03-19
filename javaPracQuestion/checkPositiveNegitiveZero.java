@@ -9,15 +9,15 @@ public class checkPositiveNegitiveZero {
         //System.out.println("enter number " + num);
 
         if( num>0){
-            System.out.println("positive number ");
+            System.out.println("positive number: ");
         }
 
         else if(num<0){
-            System.out.println("negitive number ");
+            System.out.println("negitive number: ");
         }
 
         else {
-            System.out.println("number is zero");
+            System.out.println("number is zero: ");
 
         }
     }
