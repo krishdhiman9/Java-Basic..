@@ -14,7 +14,7 @@ public class claculator {
         //int c = sc.nextInt();
         System.out.print("enter 2nd number: ");
         int b = sc.nextInt();
-        int result=0;
+        //int result=0;
 
 
         switch (c){
@@ -25,16 +25,17 @@ public class claculator {
                 System.out.println(a-b);
                 break;
             case '*':
-                result=a*b;
+                System.out.println(a*b);
+                
                 break;
             case '/':
-                result=a/b;
+                //result=a/b;
                 break;
             case '%':
-                result=a%b;
+                //result=a%b;
                 break;
             }
-        System.out.println("your answer is: " + result);
+        //System.out.println("your answer is: " + result);
     }
     
 }
