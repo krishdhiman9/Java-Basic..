@@ -9,8 +9,8 @@ class MymainEmployee{
         name = "krish dhiman ";
     }
     //constructor .
-    public MymainEmployee(String myName , int Id){
-        id = Id;
+    public MymainEmployee(String myName , int myId){
+        id = myId;
         name = myName;
     }
 
@@ -35,8 +35,8 @@ public class constructors {
         //MymainEmployee em = new MymainEmployee( "krish dhiman", 3344 );
         
         //this line for method overloading.
-        MymainEmployee e = new MymainEmployee();
-        System.out.println(e.getId());
-        System.out.println(e.getName());
+        MymainEmployee em = new MymainEmployee("krish",22);
+        System.out.println(em.getId());
+        System.out.println(em.getName());
     }
 }
