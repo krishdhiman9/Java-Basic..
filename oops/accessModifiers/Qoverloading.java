@@ -1,29 +1,44 @@
 package accessModifiers;
 class Rectangle {
-    int length;
-    int breadth;
-
-    // Default constructor
-    Rectangle() {
-        length = 0;
-        breadth = 0;
+    private int length;
+    private int breadth;
+    
+    public Rectangle(){
+        length = 22;
+        breadth = 3;
     }
-
-    // Parameterized constructor (overloaded)
-    Rectangle(int l, int b) {
+    public Rectangle(int l,int b){
         length = l;
         breadth = b;
     }
-
-    void area() {
-        int area = length * breadth;
-        System.out.println("Area of Rectangle = " + area);
+    
+    public int getLength(){
+        return length;
     }
+    //public void setLenght(int l){
+    //    length = l;
+    //}
+    public int getBreadth(){
+        return breadth;
+    }
+    //public void setBreadth(int b){
+    //    breadth = b;
+    //}
+    public int getParameter(){
+        return 2*(length + breadth);
+    }
+    
 
+}
+public class Qoverloading{
     public static void main(String[] args) {
-        // object using parameterized constructor
-        Rectangle r1 = new Rectangle(5, 5);
+        //Rectangle r = new Rectangle(4,5);
+        Rectangle r = new Rectangle();
+        System.out.println(r.getParameter());
 
-        r1.area();
+
+
+
+
     }
 }
