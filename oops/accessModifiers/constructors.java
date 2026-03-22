@@ -28,7 +28,6 @@ class MymainEmployee{
         id = i;
     }
 }
-
 public class constructors {
     public static void main(String[] args) {
         //below line is use with constructor. 
