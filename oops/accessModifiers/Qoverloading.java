@@ -15,15 +15,15 @@ class Rectangle {
     public int getLength(){
         return length;
     }
-    //public void setLenght(int l){
-    //    length = l;
-    //}
+    public void setLenght(int l){
+        length = l;
+    }
     public int getBreadth(){
         return breadth;
     }
-    //public void setBreadth(int b){
-    //    breadth = b;
-    //}
+    public void setBreadth(int b){
+        breadth = b;
+    }
     public int getParameter(){
         return 2*(length + breadth);
     }
@@ -34,11 +34,10 @@ public class Qoverloading{
     public static void main(String[] args) {
         //Rectangle r = new Rectangle(4,5);
         Rectangle r = new Rectangle();
+        //System.out.println(r.getParameter());
+
+        r.setLenght(23);
+        r.setBreadth(23);
         System.out.println(r.getParameter());
-
-
-
-
-
-    }
+ }
 }
