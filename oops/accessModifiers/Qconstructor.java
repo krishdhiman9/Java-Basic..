@@ -31,9 +31,8 @@ class setCylinder{
 public class Qconstructor {
     public static void main(String[] args) {
         setCylinder Cy = new setCylinder();
-
-        Cy.setRadius(12);
-        Cy.setHeight(13);
+        Cy.setRadius(33);
+        Cy.setHeight(44);
 
         System.out.println(Cy.getRadius());
         System.out.println(Cy.getHeight());
