@@ -10,6 +10,7 @@ public class sumFirstTen {
             sum = sum +i;
             i++;
         }
+        
         System.out.println("sum is first 10 natural number is : " + sum);
     }
     
