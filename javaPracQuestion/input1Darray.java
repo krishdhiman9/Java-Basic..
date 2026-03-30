@@ -7,7 +7,7 @@ public class input1Darray {
         int [] arr = new int [5];
         
         System.out.println("enter elements");
-        
+        int find = 3;
         for(int i = 0;i<arr.length;i++){
             arr[i]= sc.nextInt();
             
@@ -16,6 +16,14 @@ public class input1Darray {
         for(int i= 0;i<arr.length;i++){
             System.out.print( arr[i] + " ");
 
+        }
+        
+        for(int i=0;i<=arr.length;i++){
+            if(find==arr[i]){
+            System.out.println( "(" + find + " found"+ ")");
+            break;
+            }
+            
         }
 
     }
