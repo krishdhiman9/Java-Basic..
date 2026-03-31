@@ -10,7 +10,6 @@ public class Input2DArray {public static void main(String[] args) {
     for(int i = 0;i<arr.length;i++){
         for(int j= 0;j<arr[i].length;j++){
             arr[i][j]=sc.nextInt();
-
         }
     }
     System.out.println("Matrix is:");
@@ -20,6 +19,5 @@ public class Input2DArray {public static void main(String[] args) {
             }
             System.out.println();
 }
-    
 }
 }
