@@ -3,7 +3,6 @@ class setCylinder{
     private int radius;
     private int height;
     
-    
     public int getRadius(){
         return radius;
     }
