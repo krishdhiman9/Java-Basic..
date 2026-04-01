@@ -5,7 +5,6 @@ class setSphere{
     public int getRadius(){
         return radius;
     }
-
     public void setRadius(int r){
         radius = r;
     }
