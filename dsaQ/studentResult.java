@@ -1,4 +1,5 @@
 package dsaQ;
+//calculate grade 
 import java .util.Scanner;
 class result{
     int marks;
