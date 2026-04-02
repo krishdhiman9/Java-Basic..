@@ -1,4 +1,5 @@
 package dsaQ;
+//sum of 2 numbers using function 
 class sum{
     int add(int a,int b){
         return a+b;
