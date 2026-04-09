@@ -8,6 +8,7 @@ public class studentPassOrFail {
         int marks = sc.nextInt();
         //System.out.println("enter marks" );
 
+        
         if (marks >= 20){
             System.out.println("pass" );
         }
