@@ -9,7 +9,6 @@ public class sumArray {public static void main(String[] args) {
         for( int j=0;j<arr.length;j++){
             //arr [i][j]= sc.nextInt();
             sum += arr[i][j];
-
         }
     }System.out.println(sum);
 
