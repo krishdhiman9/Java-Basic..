@@ -10,6 +10,8 @@ public class sumArray {public static void main(String[] args) {
             //arr [i][j]= sc.nextInt();
             sum += arr[i][j];
         }
-    }System.out.println(sum);
+    }
+    
+    System.out.println(sum);
 }
 }
