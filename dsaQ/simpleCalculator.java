@@ -14,6 +14,7 @@ class Calculator{
         return a/b;
     }  
 }
+
 public class simpleCalculator {
     public static void main(String[] args) {
         Calculator c = new Calculator();
