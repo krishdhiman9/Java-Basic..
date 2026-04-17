@@ -9,6 +9,7 @@ double Circumference(){
     return 2*3.14*radius;
 }
 }
+
 public class circle {
     public static void main(String[] args) {
         circleinput c = new circleinput();
