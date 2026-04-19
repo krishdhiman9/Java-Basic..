@@ -24,5 +24,4 @@ public class simpleCalculator {
         System.out.println("division = " + c.div(10,5));
         
     }
-    
 }
