@@ -19,6 +19,7 @@ public class details {
         product pp = new product();
         pp.getdetails();
         pp.calculate();
+
     }
     }
 
