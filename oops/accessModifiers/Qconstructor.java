@@ -1,14 +1,14 @@
 package accessModifiers;
-class setCylinder{
+class setCylinderr {
 
     private int radius ;
     private int height;
 
-    public setCylinder(){
+    public setCylinderr(){
         radius=12;
         height =13;
 }
-    public setCylinder(int Radius,int Height){
+    public setCylinderr(int Radius, int Height){
         Radius = radius;
         Height = height;
     }
@@ -30,7 +30,7 @@ class setCylinder{
 
 public class Qconstructor {
     public static void main(String[] args) {
-        setCylinder Cy = new setCylinder();
+        setCylinderr Cy = new setCylinderr();
         Cy.setRadius(33);
         Cy.setHeight(44);
 

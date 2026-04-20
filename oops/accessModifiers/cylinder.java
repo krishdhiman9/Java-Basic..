@@ -18,7 +18,7 @@ class setCylinder{
 }
 public class cylinder {
     public static void main(String[] args) {
-        setCylinder cy = new setCylinder();
+        setCylinderr cy = new setCylinderr();
         cy.setRadius(12);
         cy.setHeight(22);
         System.out.println(cy.getRadius());

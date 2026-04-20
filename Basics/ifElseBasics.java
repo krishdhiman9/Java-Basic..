@@ -7,7 +7,7 @@ public class ifElseBasics {
         if (age>=18){
             System.out.println("eligible for voting");
         }
-
+// kd
         //if-else statement
         int number = 5;
         if (number>0){

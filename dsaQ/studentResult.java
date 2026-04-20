@@ -22,7 +22,7 @@ class result{
 
 public class studentResult {
     public static void main(String[] args) {
-        Scanner sc new Scanner(System.in);
+        Scanner sc= new Scanner(System.in);
         result r = new result();
         r.marks=sc.nextInt();
         String grade = r.calgrade();
