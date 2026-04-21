@@ -6,6 +6,6 @@ public class sumArray{
     //Scanner sc = new Scanner(System.in);
 
     
-    System.out.println("chutiys");
+    System.out.println("chu");
 }}
 
