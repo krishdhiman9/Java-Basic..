@@ -15,6 +15,7 @@ public class evenOddCheck {
     public static void main(String[] args) {
         evenodd eo = new evenodd();
         System.out.println(eo.num(4));
+
     }
     
 }
