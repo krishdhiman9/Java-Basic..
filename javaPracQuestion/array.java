@@ -9,6 +9,5 @@ public class array {
                 System.out.println("Found: "+arr[i]);
             }
         }
-
     }
 }
