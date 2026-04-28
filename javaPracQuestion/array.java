@@ -8,6 +8,7 @@ public class array {
             if(arr[i]==target){
                 System.out.println("Found: "+arr[i]);
             }
+
         }
     }
 }
