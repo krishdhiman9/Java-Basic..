@@ -41,6 +41,7 @@ public class test{
                 System.out.print(num);
             }
 
+
             System.out.println();
         }
     }
