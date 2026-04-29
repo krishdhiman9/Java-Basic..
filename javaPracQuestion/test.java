@@ -1,7 +1,6 @@
 package javaPracQuestion;
 import java.util.Scanner;
 
-
 //public class test {
 //    public static void main() {
 //        for (int i=1; i<=4; i++){
@@ -41,6 +40,7 @@ public class test{
             for(int j = 1; j <= i; j++) {
                 System.out.print(num);
             }
+
             System.out.println();
         }
     }
