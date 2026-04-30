@@ -43,6 +43,5 @@ public class test{
                 num++;
             }System.out.println();
         }
-
     }
 }
