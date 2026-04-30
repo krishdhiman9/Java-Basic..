@@ -1,19 +1,20 @@
 package javaPracQuestion;
 //import java.util.Scanner;
 
-public class test{
-    public static void main(String[] args) {
-        for (int i = 1; i <= 4; i++) {
-            for (int j = 2; j <= i; j++) {
-                System.out.print(" ");
-            }
-            for (int k = 4; k >= i; k--) {
-                System.out.print("*");
-            }
-
-            System.out.println();
-        }
-    }}
+//public class test{
+//    public static void main(String[] args) {
+//        for (int i = 1; i <= 4; i++) {
+//            for (int j = 2; j <= i; j++) {
+//                System.out.print(" ");
+//            }
+//            for (int k = 4; k >= i; k--) {
+//                System.out.print("*");
+//            }
+//
+//            System.out.println();
+//        }
+//    }
+//}
     //int day = 3;
 //        Scanner sc = new Scanner(System.in);
 //        //System.out.println("enter day ");
@@ -33,14 +34,15 @@ public class test{
     //    }
     //  }
 
-//public class test{
-//    public static void main(String [] args) {
-//        int num = 1;
-//        for(int i = 1; i <= 4; i++) {
-//            for(int j = 1; j <= i; j++) {
-//                System.out.print(num);
-//            }
-//            System.out.println();
-//        }
-//    }
-//}
+public class test{
+    public static void main(String [] args){
+        int num = 1;
+        for(int i = 1; i <= 4; i++){
+            for(int j = 1; j <= i; j++){
+                System.out.print(num+ " ");
+                num++;
+            }
+            System.out.println();
+        }
+    }
+}
