@@ -12,12 +12,14 @@ public class newOne {
 //    }
 
 //Q2. n to 1
-    public static void main() {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        for(int i = n; i>=1; i--){
-            System.out.println(i);
-        }
-    }
+//    public static void main() {
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        for(int i = n; i>=1; i--){
+//            System.out.println(i);
+//        }
+//    }
+
+
 
 }
