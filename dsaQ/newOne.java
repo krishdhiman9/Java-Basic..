@@ -42,5 +42,17 @@ public class newOne {
 //        }
 //    }
 
+    //Print Multiples of 3 up to N
+//    public static void main() {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("enter number:");
+//        int n = sc.nextInt();
+//        for (int i = 1; i <= n; i++) {
+//            if (i % 3 == 0){
+//                System.out.println( i+ " ");
+//            }
+//        }
+//    }
+
 
 }
