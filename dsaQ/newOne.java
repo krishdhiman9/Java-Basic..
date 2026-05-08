@@ -63,5 +63,16 @@ public class newOne {
 //    System.out.println(sum);
 //}
 
+    //Sum of Squares
+//    public static void main() {
+//        int sum = 0;
+//        int square;
+//        for(int i = 0; i<=3; i++){
+//            square = i*i;
+//            sum+=square;
+//        }
+//    System.out.println(sum);
+//}
+//
 
 }
