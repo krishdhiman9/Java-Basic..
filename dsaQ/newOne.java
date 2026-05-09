@@ -74,5 +74,13 @@ public class newOne {
 //    System.out.println(sum);
 //}
 //
+//    public static void main() {
+//        int fact=1;
+//        for(int i = 1; i<=5; i++){
+//            fact = fact * i;
+//        }
+//        System.out.println(fact);
+//    }
+
 
 }
