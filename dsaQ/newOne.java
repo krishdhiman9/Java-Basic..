@@ -84,5 +84,14 @@ public class newOne {
 //        System.out.println(fact);
 //    }
 
+//Average of Numbers
+public static void main() {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter number: ");
+    int s = sc.nextInt();
 
+    for(int i = 0; i<=3; i++){
+
+    }
+}
 }
