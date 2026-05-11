@@ -108,14 +108,20 @@ public class newOne {
 //        }
 //    }
 
-    public static void main() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter number: ");
-        int n = sc.nextInt();
-        int digit ;
-        for(int i = n; i>0; i= i/10){
-            digit = i % 10;
-            System.out.print(digit);
-        }
-    }
+
+// Reverse a Number
+//    public static void main() {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("enter number: ");
+//        int n = sc.nextInt();
+//        int digit ;
+//        for(int i = n; i>0; i= i/10){
+//            digit = i % 10;
+//            System.out.print(digit);
+//        }
+//    }
+
+
+
+
 }
