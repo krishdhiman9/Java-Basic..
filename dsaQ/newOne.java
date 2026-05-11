@@ -85,13 +85,37 @@ public class newOne {
 //    }
 
 //Average of Numbers
-public static void main() {
-    Scanner sc = new Scanner(System.in);
-    System.out.println("enter number: ");
-    int s = sc.nextInt();
+//    public static void main(String[] args) {
+//
+//            Scanner sc = new Scanner(System.in);
+//
+//            System.out.print("enter numbers: ");
+//            int s = sc.nextInt();
+//
+//            int sum = 0;
+//
+//            for(int i = 1; i <= s; i++) {
+//
+//                System.out.print("Enter number: ");
+//                int num = sc.nextInt();
+//
+//                sum = sum + num;
+//            }
+//
+//            int average = sum / s;
+//
+//            System.out.println("Average = " + average);
+//        }
+//    }
 
-    for(int i = 0; i<=3; i++){
-
+    public static void main() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter number: ");
+        int n = sc.nextInt();
+        int digit ;
+        for(int i = n; i>0; i= i/10){
+            digit = i % 10;
+            System.out.print(digit);
+        }
     }
-}
 }
