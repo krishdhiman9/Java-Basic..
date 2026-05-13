@@ -145,5 +145,7 @@ public class newOne {
 //            count++;
 //        } System.out.println(count);
 //    }
+
+
 }
 
