@@ -136,7 +136,9 @@ public class newOne {
 //    }
 
     //Count Digits
-//    public static void main() {
+//
+//
+//public static void main() {
 //        Scanner sc = new Scanner(System.in);
 //        System.out.println("enter number: ");
 //        int n = sc.nextInt();
