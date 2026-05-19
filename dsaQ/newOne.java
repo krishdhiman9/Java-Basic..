@@ -2,11 +2,11 @@ package dsaQ;
 import java.util.Scanner;
 public class newOne {
 
-    //Q1. print n to 5
+    //Q1. print 1 to n
 //    public static void main() {
 //        Scanner sc = new Scanner(System.in);
 //        int n = sc.nextInt();
-//        for(int i = n; i<=5; i++){
+//        for(int i = 1; i<=n; i++){
 //            System.out.println(i);
 //        }
 //    }
@@ -47,10 +47,12 @@ public class newOne {
 //        Scanner sc = new Scanner(System.in);
 //        System.out.println("enter number:");
 //        int n = sc.nextInt();
-//        for (int i = 1; i <= n; i++) {
+//        int i = 1;
+//        while(i<=n){
 //            if (i % 3 == 0){
 //                System.out.println( i+ " ");
-//            }
+//
+//            } i++;
 //        }
 //    }
 
@@ -138,15 +140,15 @@ public class newOne {
     //Count Digits
 //
 //
-public static void main() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter number: ");
-        int n = sc.nextInt();
-        int count=0;
-        for(int i = n; i>0; i=i/10){
-            count++;
-        } System.out.println(count);
-    }
+//public static void main() {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("enter number: ");
+//        int n = sc.nextInt();
+//        int count=0;
+//        for(int i = n; i>0; i=i/10){
+//            count++;
+//        } System.out.println(count);
+//    }
 
 
 }
