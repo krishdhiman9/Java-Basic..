@@ -19,9 +19,10 @@ class account1{
 public class Account {
     public static void main(String[] args) {
         account1 ac = new account1();
-        ac.amount(900);
-        ac.deposit(100);
+        System.out.println(ac.amount(900));
+        System.out.println(ac.deposit(100));
         ac.withdrawl(200);
+        ac.checkb(100);
         
     }
 }
