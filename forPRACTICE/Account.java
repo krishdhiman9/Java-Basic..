@@ -21,8 +21,8 @@ public class Account {
         account1 ac = new account1();
         System.out.println(ac.amount(900));
         System.out.println(ac.deposit(100));
-        ac.withdrawl(200);
-        ac.checkb(100);
+        System.out.println(ac.withdrawl(200));
+        System.out.println(ac.checkb(100));
         
     }
 }
