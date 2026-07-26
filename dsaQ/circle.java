@@ -1,7 +1,7 @@
 package dsaQ;
 //area and circumfernce of circle. 
 class circleinput{
-int radius= 7;
+int radius= 71;
 double Area(){
     return 3.14*radius*radius;
 }
